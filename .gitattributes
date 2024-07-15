@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ignore node_modules directory
+node_modules/
+
+# Other files and directories to ignore
+.env
+.DS_Store
+*.log
+*.pyc
+__pycache__/
